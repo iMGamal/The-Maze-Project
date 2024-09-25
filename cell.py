@@ -28,7 +28,7 @@ class Cell:
         return grid[index(x, y)]
 
     def check_neighbors(self, cols, rows, grid):
-        neighbors[]
+        neighbors = []
         top = self.check_cells(self.x, self.y - 1, cols, rows, grid)
         left = self.check_cells(self.x - 1, self.y, cols, rows, grid)
         bottom = self.check_cells(self.x, self.y + 1, cols, rows, grid)

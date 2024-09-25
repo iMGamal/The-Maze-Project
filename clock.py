@@ -14,7 +14,7 @@ class Clock:
         self.start = time.time()
 
     def update(self):
-        if self.start not None:
+        if self.start != None:
             self.passed = time.time() - self.start
 
     def display(self):

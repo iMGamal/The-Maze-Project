@@ -5,7 +5,7 @@ class Player:
         self.x = int(x)
         self.y = int(y)
         self.player_size = 10
-        self.rect = pygame.Rect(self.x, self.y self.player_size, self.player_size)
+        self.rect = pygame.Rect(self.x, self.y, self.player_size, self.player_size)
         self.color = (250, 120, 60)
         self.vel_x = 0
         self.vel_y = 0

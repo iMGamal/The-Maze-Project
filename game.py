@@ -10,7 +10,7 @@ class Game:
         self.message_color = pygame.Color('darkorange')
 
     def add_goal(self, screen):
-        img_path = ''
+        img_path = '/mnt/c/Users/gamal/Pictures/maze.png'
         img = pygame.image.load(img_path)
         img = pygame.transform.scale(img, (self.size, self.size))
         screen.blit(img, (self.goal.x * self.size, self.goal.y * self.size))
